@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".q9">
+    tools:context=".q10">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="103dp"
-            android:text="9) Identify the image with it's starting letter :"
+            android:text="10) Identify the image with it's starting letter :"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#000000"
@@ -53,7 +53,7 @@
             app:layout_constraintHorizontal_bias="0.531"
             app:layout_constraintStart_toEndOf="@+id/textView5"
             app:layout_constraintTop_toTopOf="@+id/textView4"
-            app:srcCompat="@drawable/rabbit" />
+            app:srcCompat="@drawable/sword" />
 
         <Button
             android:id="@+id/btn30"
@@ -61,7 +61,7 @@
             android:layout_height="66sp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="156dp"
-            android:text="A) Mice"
+            android:text="A) Blade"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
@@ -74,7 +74,7 @@
             android:layout_height="66sp"
             android:layout_marginStart="36dp"
             android:layout_marginTop="96dp"
-            android:text="B) Rat"
+            android:text="B) Saw"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
@@ -89,7 +89,7 @@
             android:layout_height="66sp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
-            android:text="C) Rabbit"
+            android:text="C) Knife"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
@@ -102,14 +102,15 @@
             android:layout_height="66sp"
             android:layout_marginStart="36dp"
             android:layout_marginTop="20dp"
-            android:text="D) Pig"
+            android:text="D) Sword"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.517"
             app:layout_constraintStart_toEndOf="@+id/btn32"
-            app:layout_constraintTop_toBottomOf="@+id/btn31" />
+            app:layout_constraintTop_toBottomOf="@+id/btn31"
+            tools:visibility="visible" />
 
         <TextView
             android:id="@+id/txt2"
@@ -127,5 +128,36 @@
             app:layout_constraintHorizontal_bias="0.483"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn33" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Return to Home"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintVertical_bias="0.204"
+            tools:visibility="invisible" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
