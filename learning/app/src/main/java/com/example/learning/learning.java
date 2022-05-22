@@ -27,7 +27,7 @@ public class learning extends AppCompatActivity {
 
 
                     intent.putExtra("img", R.drawable.a);
-                    intent.putExtra("strName", "A for Aeroplane");
+                    intent.putExtra("strName", "A for Alligator");
 
 
                     startActivity(intent);
@@ -40,7 +40,7 @@ public class learning extends AppCompatActivity {
                     //intent.putExtra("id",edit.getText().toString());
                     intent.putExtra("img", R.drawable.b);
 
-                    intent.putExtra("strName", "B for Balloons");
+                    intent.putExtra("strName", "B for Bear");
                     startActivity(intent);
                     break;
                 }
@@ -61,7 +61,7 @@ public class learning extends AppCompatActivity {
 
                     //intent.putExtra("id",edit.getText().toString());
                     intent.putExtra("img", R.drawable.d);
-                    intent.putExtra("strName", "D for Dog");
+                    intent.putExtra("strName", "D for Doll");
 
                     startActivity(intent);
                     break;
@@ -83,7 +83,7 @@ public class learning extends AppCompatActivity {
 
                     //intent.putExtra("id",edit.getText().toString());
                     intent.putExtra("img", R.drawable.f);
-                    intent.putExtra("strName", "F for Fairy");
+                    intent.putExtra("strName", "F for Flowers");
 
                     startActivity(intent);
                     break;
@@ -116,7 +116,7 @@ public class learning extends AppCompatActivity {
 
                     //intent.putExtra("id",edit.getText().toString());
                     intent.putExtra("img", R.drawable.i);
-                    intent.putExtra("strName", "I for Ink Pot");
+                    intent.putExtra("strName", "I for Ice");
 
                     startActivity(intent);
                     break;
@@ -148,7 +148,7 @@ public class learning extends AppCompatActivity {
                     Intent intent = new Intent(learning.this, display.class);
 
                     //intent.putExtra("id",edit.getText().toString());
-                    intent.putExtra("img", R.drawable.L);
+                    intent.putExtra("img", R.drawable.l);
                     intent.putExtra("strName", "L for Leopard");
 
                     startActivity(intent);
@@ -226,7 +226,7 @@ public class learning extends AppCompatActivity {
 
                     //intent.putExtra("id",edit.getText().toString());
                     intent.putExtra("img", R.drawable.s);
-                    intent.putExtra("strName", "S for Swans");
+                    intent.putExtra("strName", "S for Swan");
 
                     startActivity(intent);
                     break;
@@ -248,7 +248,7 @@ public class learning extends AppCompatActivity {
 
                     //intent.putExtra("id",edit.getText().toString());
                     intent.putExtra("img", R.drawable.u);
-                    intent.putExtra("strName", "U for Umbrella");
+                    intent.putExtra("strName", "U for Umbrellas");
 
                     startActivity(intent);
                     break;
