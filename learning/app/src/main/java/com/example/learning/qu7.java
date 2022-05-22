@@ -9,13 +9,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class q6 extends AppCompatActivity {
+public class qu7 extends AppCompatActivity {
     Button btn5,btn6,btn7,btn8;
     TextView txt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_q6);
+        setContentView(R.layout.activity_qu7);
         btn5=(Button)findViewById(R.id.btn30);
         btn6=(Button)findViewById(R.id.btn31);
         btn7=(Button)findViewById(R.id.btn32);
@@ -29,7 +30,6 @@ public class q6 extends AppCompatActivity {
                 btn6.setBackgroundColor(Color.BLACK);
                 btn7.setBackgroundColor(Color.BLACK);
                 btn8.setBackgroundColor(Color.BLACK);
-
 
                 btn5.setBackgroundColor(Color.RED);
                 txt.setTextColor(Color.RED);
@@ -46,9 +46,11 @@ public class q6 extends AppCompatActivity {
                 btn8.setBackgroundColor(Color.BLACK);
 
                 txt.setText("");
-                btn6.setBackgroundColor(Color.RED);
-                txt.setTextColor(Color.RED);
-                txt.setText("Wrong");
+                btn6.setBackgroundColor(Color.GREEN);
+                txt.setTextColor(Color.GREEN);
+                txt.setText("Correct");
+                Intent intent= new Intent(qu7.this,que8.class);
+                startActivity(intent);
             }
         });
         btn7.setOnClickListener(new View.OnClickListener() {
@@ -73,13 +75,9 @@ public class q6 extends AppCompatActivity {
                 btn7.setBackgroundColor(Color.BLACK);
                 btn5.setBackgroundColor(Color.BLACK);
                 txt.setText("");
-
-
-                btn8.setBackgroundColor(Color.GREEN);
-                txt.setTextColor(Color.GREEN);
-                txt.setText("Correct");
-                Intent intent= new Intent(q6.this,qu7.class);
-                startActivity(intent);
+                btn8.setBackgroundColor(Color.RED);
+                txt.setTextColor(Color.RED);
+                txt.setText("Wrong");
             }
         });
 
