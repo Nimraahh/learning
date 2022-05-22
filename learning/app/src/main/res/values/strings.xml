@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">learning</string>
+    <string name="happy_learning">Happy Learning</string>
+    <string name="learning">Learning</string>
+    <string name="examination">Examination</string>
+    <string name="repository">Repository</string>
+</resources>
