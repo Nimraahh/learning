@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Learning">
         <activity
+            android:name=".display"
+            android:exported="false" />
+        <activity
             android:name=".exam"
             android:exported="false" />
         <activity
