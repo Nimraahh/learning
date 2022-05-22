@@ -34,7 +34,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="103dp"
-            android:text="1) Identify the image with it's starting letter :"
+            android:text="2) Identify the image with it's starting letter :"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="#000000"

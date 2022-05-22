@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Learning">
         <activity
+            android:name=".q4"
+            android:exported="false" />
+        <activity
             android:name=".q3"
             android:exported="false" />
         <activity
