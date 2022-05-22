@@ -73,10 +73,11 @@ public class q10 extends AppCompatActivity {
         btn8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                txt.setText("");
                 btn6.setBackgroundColor(Color.BLACK);
                 btn7.setBackgroundColor(Color.BLACK);
                 btn5.setBackgroundColor(Color.BLACK);
-                txt.setText("");
+
                 btn8.setBackgroundColor(Color.GREEN);
                 txt.setTextColor(Color.GREEN);
                 txt.setText("Correct");
