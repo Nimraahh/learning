@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".exam">
+    tools:context=".q2">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -53,7 +53,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/textView5"
             app:layout_constraintTop_toTopOf="@+id/textView4"
-            app:srcCompat="@drawable/ant" />
+            app:srcCompat="@drawable/crown" />
 
         <Button
             android:id="@+id/btn30"
@@ -61,7 +61,7 @@
             android:layout_height="50sp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="40dp"
-            android:text="A) Ant"
+            android:text="A) Sunshine"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
@@ -75,7 +75,7 @@
             android:layout_height="50sp"
             android:layout_marginStart="36dp"
             android:layout_marginTop="4dp"
-            android:text="B) Insect"
+            android:text="B) Crown"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
@@ -91,7 +91,7 @@
             android:layout_height="50sp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
-            android:text="C) Fly"
+            android:text="C) Circle"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
@@ -105,7 +105,7 @@
             android:layout_height="50sp"
             android:layout_marginStart="36dp"
             android:layout_marginTop="8dp"
-            android:text="D) Mosquito "
+            android:text="D) Table"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="12sp"
@@ -133,16 +133,4 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.587" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
