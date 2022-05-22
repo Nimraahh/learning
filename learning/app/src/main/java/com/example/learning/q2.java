@@ -9,13 +9,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class exam extends AppCompatActivity {
+public class q2 extends AppCompatActivity {
     Button btn5,btn6,btn7,btn8;
     TextView txt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exam);
+        setContentView(R.layout.activity_qu2);
         btn5=(Button)findViewById(R.id.btn30);
         btn6=(Button)findViewById(R.id.btn31);
         btn7=(Button)findViewById(R.id.btn32);
@@ -30,11 +30,10 @@ public class exam extends AppCompatActivity {
                 btn7.setBackgroundColor(Color.BLACK);
                 btn8.setBackgroundColor(Color.BLACK);
 
-                btn5.setBackgroundColor(Color.GREEN);
-                txt.setTextColor(Color.GREEN);
-                txt.setText("Correct");
-                Intent intent= new Intent(exam.this,q2.class);
-                startActivity(intent);
+                btn5.setBackgroundColor(Color.RED);
+                txt.setTextColor(Color.RED);
+                txt.setText("Wrong");
+
             }
         });
 
@@ -46,9 +45,11 @@ public class exam extends AppCompatActivity {
                 btn8.setBackgroundColor(Color.BLACK);
 
                 txt.setText("");
-                btn6.setBackgroundColor(Color.RED);
-                txt.setTextColor(Color.RED);
-                txt.setText("Wrong");
+                btn6.setBackgroundColor(Color.GREEN);
+                txt.setTextColor(Color.GREEN);
+                txt.setText("Correct");
+                Intent intent= new Intent(q2.this,q3.class);
+                startActivity(intent);
             }
         });
         btn7.setOnClickListener(new View.OnClickListener() {
