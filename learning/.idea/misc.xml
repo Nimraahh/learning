@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_display.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_exam.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_learning.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_main.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_q10.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_q3.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_q4.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_q5.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_q6.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_q9.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_qu2.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_qu7.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout-land/activity_que8.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_display.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_exam.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_exam_module.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_learning.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_q10.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_q2.xml" value="0.6598837209302325" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_q3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_q4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_q5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_q6.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_q7.xml" value="0.2384428223844282" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_q8.xml" value="0.2384428223844282" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_q9.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_qu2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_qu7.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/home/AndroidStudioProjects/learning/app/src/main/res/layout/activity_que8.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
