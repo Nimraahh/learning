@@ -68,12 +68,12 @@
         android:id="@+id/imageView"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintHorizontal_bias="0.951"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/commits"
-        tools:srcCompat="@drawable/commits" />
+        app:srcCompat="@drawable/commit"
+        tools:srcCompat="@drawable/commit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
